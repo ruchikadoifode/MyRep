@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="1" failed="0" total="3" passed="2">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Yahoo" duration-ms="103" started-at="2015-05-14T16:16:14Z" finished-at="2015-05-14T16:16:14Z">
+    <groups>
+    </groups>
+    <test name="yahoo test" duration-ms="36" started-at="2015-05-14T16:16:14Z" finished-at="2015-05-14T16:16:14Z">
+      <class name="testpack.Sample_testng">
+        <test-method status="PASS" signature="login()[pri:0, instance:testpack.Sample_testng@11ca69d]" name="login" duration-ms="13" started-at="2015-05-14T21:46:14Z" finished-at="2015-05-14T21:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- login -->
+        <test-method status="PASS" signature="logout()[pri:0, instance:testpack.Sample_testng@11ca69d]" name="logout" duration-ms="4" started-at="2015-05-14T21:46:14Z" finished-at="2015-05-14T21:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- testpack.Sample_testng -->
+    </test> <!-- yahoo test -->
+    <test name="yahoo newa test" duration-ms="5" started-at="2015-05-14T16:16:14Z" finished-at="2015-05-14T16:16:14Z">
+      <class name="testpack.yahoo">
+        <test-method status="SKIP" signature="print()[pri:0, instance:testpack.yahoo@5d8e63]" name="print" is-config="true" duration-ms="0" started-at="2015-05-14T21:46:14Z" finished-at="2015-05-14T21:46:14Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[skipp]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: skipp
+	at testpack.yahoo.print(yahoo.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:335)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:330)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.remote.RemoteTestNG.run(RemoteTestNG.java:111)
+	at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:204)
+	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:175)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- print -->
+        <test-method status="SKIP" signature="aftertest()[pri:0, instance:testpack.yahoo@5d8e63]" name="aftertest" duration-ms="0" started-at="2015-05-14T21:46:14Z" finished-at="2015-05-14T21:46:14Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- aftertest -->
+      </class> <!-- testpack.yahoo -->
+    </test> <!-- yahoo newa test -->
+  </suite> <!-- Yahoo -->
+</testng-results>

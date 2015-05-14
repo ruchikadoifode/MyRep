@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Yahoo]">
+  <test name="yahoo newa test(failed)">
+    <classes>
+      <class name="testpack.yahoo">
+        <methods>
+          <include name="print"/>
+          <include name="aftertest"/>
+        </methods>
+      </class> <!-- testpack.yahoo -->
+    </classes>
+  </test> <!-- yahoo newa test(failed) -->
+</suite> <!-- Failed suite [Yahoo] -->
